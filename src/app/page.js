@@ -1,3 +1,10 @@
+import About from "@/Components/About";
+import Image from "next/image";
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <main className="">
+      <About />
+    </main>
+  );
 }
