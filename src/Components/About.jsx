@@ -12,14 +12,20 @@ function About() {
         />
       </div> */}
 
-      <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-        <h1>Büşra Yılmaz</h1>
-        <p>Frontend Developer</p>
+      <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <h1>About Me</h1>
         <p>
-          Hi! I&apos;m Büşra, a frontend developer based in Istanbul, Turkey. I
-          have a passion for web development and love to create web applications
-          that are user-friendly and accessible. I have experience working with
-          React, Next.js, and Tailwind CSS.
+          Hi! I&apos;m Büşra Yılmaz. graduated from the Department of Computer
+          Education and Instructional Technology of the Yıldız Technical
+          University in 2024 with a GPA of 3.58. I aim to pursue a career in the
+          software industry and have participated in various trainings and
+          projects to acquire frontend developer skills. I have particularly
+          focused on web development using React and have a strong interest in
+          learning and applying modern frontend technologies. I am a team player
+          with strong communication skills, open to learning, and a quick
+          learner. I am also a self-motivated individual who is passionate about
+          technology and has a strong desire to succeed in the software
+          industry.
         </p>
       </div>
     </div>
