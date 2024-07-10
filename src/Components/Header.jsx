@@ -10,16 +10,16 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="text-xl font-bold">My Portfolio</div>
         <div className="hidden md:flex space-x-4">
-          <Link href="/about" className="p-2 rounded border">
+          <Link href="#about" className="p-2 rounded border">
             About Me
           </Link>
-          <Link href="/education" className="p-2 rounded border">
+          <Link href="#education" className="p-2 rounded border">
             Education
           </Link>
-          <Link href="/ability" className="p-2 rounded border">
+          <Link href="#ability" className="p-2 rounded border">
             Ability
           </Link>
-          <Link href="/projects" className="p-2 rounded border">
+          <Link href="#projects" className="p-2 rounded border">
             Projects
           </Link>
         </div>
