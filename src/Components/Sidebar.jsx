@@ -1,14 +1,13 @@
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareGithub } from "react-icons/fa6";
 import { BsTelephone } from "react-icons/bs";
 import { LuMailOpen } from "react-icons/lu";
 import { Link } from "next/link";
 import Image from "next/image";
-
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 function Sidebar() {
   return (
-    <div className="container px-5 py-24 mx-auto  ">
+    <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  ">
       <div className=" relative w-52 h-52 mx-auto border-8 border-orange-500 rounded-full   ">
         <Image
           src="/profileImg.jpg"
@@ -18,43 +17,50 @@ function Sidebar() {
           objectFit="cover"
         />
       </div>
-      <div className="container max-h-max rounded-sm bg-slate-600">
-        <div className="pt-6 space-y-4 font-medium text-center">
-          <h2 className="text-2xl font-bold  ">Büşra Yılmaz</h2>
+      <div className="p-8 ">
+        <h1 className="block mt-1 text-center text-lg leading-tight font-medium text-black">
+          Büşra Yılmaz
+        </h1>
+        <div className="text-center uppercase tracking-wide text-sm text-gray-800 font-semibold">
+          Frontend Developer
         </div>
-        <div className=" flex justify-around pt-6  font-medium text-center">
+
+        <div className="flex justify-around mt-6 space-x-4">
           <a
             href="https://www.linkedin.com/in/yilmaz-busra/"
             target="_blank"
-            rel="noopener noreferrer"
+            className="text-gray-700 hover:text-gray-900"
           >
-            <FaLinkedin className="text-4xl text-blue-700" />
+            <FaLinkedin size="1.5em" />
           </a>
+
           <a
             href="https://github.com/yilmaz-busra"
             target="_blank"
-            rel="noopener noreferrer"
+            className="text-gray-700 hover:text-gray-900"
           >
-            <FaSquareGithub className="text-4xl text-black" />
+            <FaGithub size="1.5em" />
           </a>
         </div>
-
-        <h4 className="pt-6 text-center text-2xl font-medium">Contact Me</h4>
-
-        <div className="flex flex-col justify-center items-center  pt-6 space-y-4  text-center">
-          <span className="flex  items-center">
-            <LuMailOpen className="text-lg w-12  text-black" />
-            <p className=" text-sm font-bold text-black">Mail :</p>
-          </span>
-          <p className="text-sm">b.busraayilmaz@gmail.com</p>
+        <div className="mt-4">
+          <div className="flex items-center text-gray-600">
+            <FiPhone className="mr-2" />
+            <span>+90 545 817 40 51</span>
+          </div>
+          <div className="flex items-center text-gray-600 mt-2">
+            <FiMail className="mr-2" />
+            <span>b.busraayilmaz@gmail.com</span>
+          </div>
+          <div className="flex items-center text-gray-600 mt-2">
+            <FiMapPin className="mr-2" />
+            <span>İstanbul</span>
+          </div>
         </div>
-        <div className="flex flex-col justify-center items-center  pt-6 space-y-4  text-center">
-          <span className="flex  items-center">
-            <BsTelephone className="text-lg w-12  text-black" />
-            <p className=" text-sm font-bold text-black">Telephone Number:</p>
-          </span>
-          <p className="text-sm">+90 545 817 40 51</p>
-        </div>
+        {/* <div className="mt-4">
+          <button className="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-700">
+            Download Resume
+          </button>
+        </div> */}
       </div>
     </div>
   );
