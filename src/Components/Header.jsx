@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link href="/ability" className="p-2 rounded border">
             Ability
           </Link>
-          <Link href="#projects" className="p-2 rounded border">
+          <Link href="/projectss" className="p-2 rounded border">
             Projects
           </Link>
         </div>
@@ -44,16 +44,16 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden flex flex-col space-y-2 p-4">
-          <Link href="#about" className="p-2 rounded border">
+          <Link href="/" className="p-2 rounded border">
             About Me
           </Link>
           <Link href="/education" className="p-2 rounded border">
             Education
           </Link>
-          <Link href="#ability" className="p-2 rounded border">
+          <Link href="/ability" className="p-2 rounded border">
             Ability
           </Link>
-          <Link href="#projects" className="p-2 rounded border">
+          <Link href="/projectss" className="p-2 rounded border">
             Projects
           </Link>
         </div>
