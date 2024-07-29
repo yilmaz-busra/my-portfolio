@@ -11,3 +11,45 @@ body,
 body {
   @apply bg-background;
 }
+
+.projects-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.project-card {
+  min-width: 300px;
+  flex: wrap;
+  scroll-snap-align: start;
+  background-color: #ffa500; /* Turuncu arka plan */
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: small;
+}
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.project-card h2 {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+.project-card p {
+  margin: 10px 0 0;
+}
+
+.project-link {
+  color: white; /* Beyaz yazı */
+  text-decoration: none; /* Altı çizili değil */
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
