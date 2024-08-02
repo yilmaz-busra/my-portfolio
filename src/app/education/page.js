@@ -7,7 +7,7 @@ function Education() {
         EDUCATION & CERTIFICATES{" "}
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 m-3">
-        <div className="bg-[#FFE3BF] p-4 rounded-xl">
+        <div className="bg-[#fbe2e3] p-4 rounded-xl">
           <div className="flex justify-between items-center">
             <Image
               src="/UniversityLogo.png"
@@ -27,7 +27,7 @@ function Education() {
           <h4 className="text-sm mt-2">09/2020 - 06/2024</h4>
         </div>
 
-        <div className="bg-[#FFE3BF]  p-4 rounded-xl ">
+        <div className="bg-[#fbe2e3]  p-4 rounded-xl ">
           <h2 className="mt-8">ISTANBUL UNIVERSITY</h2>
           <div className="flex justify-between items-center mt-2">
             <h3 className="text-sm">Management Information Systems</h3>
