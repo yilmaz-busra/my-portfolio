@@ -3,7 +3,7 @@ import { BsTelephone } from "react-icons/bs";
 import { LuMailOpen } from "react-icons/lu";
 import { Link } from "next/link";
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 function Sidebar() {
   return (
@@ -12,7 +12,7 @@ function Sidebar() {
         <Image
           src="/profileImg.jpg"
           alt="Büşra Yılmaz"
-          fill
+          layout="fill"
           className="rounded-full"
           objectFit="cover"
         />
