@@ -6,20 +6,20 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="border-b">
-      <div className="container mx-auto flex justify-between items-center p-4">
-        <div className="text-xl font-bold">My Portfolio</div>
+    <nav className=" border-b  ">
+      <div className="container mx-auto flex justify-between items-center p-4  ">
+        <div className="text-xl font-bold  ">Büşra Yılmaz</div>
         <div className="hidden md:flex space-x-4">
-          <Link href="/" className="p-2 rounded border">
+          <Link href="/" className="p-4 rounded-xl border">
             About Me
           </Link>
-          <Link href="/education" className="p-2 rounded border">
+          <Link href="/education" className="p-4 rounded-xl border">
             Education
           </Link>
-          <Link href="/ability" className="p-2 rounded border">
+          <Link href="/ability" className="p-4 rounded-xl border">
             Ability
           </Link>
-          <Link href="/projectss" className="p-2 rounded border">
+          <Link href="/projectss" className="p-4 rounded-xl border">
             Projects
           </Link>
         </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden flex flex-col space-y-2 p-4">
-          <Link href="/" className="p-2 rounded border">
+          <Link href="/" className="p-2 rounded border ">
             About Me
           </Link>
           <Link href="/education" className="p-2 rounded border">
