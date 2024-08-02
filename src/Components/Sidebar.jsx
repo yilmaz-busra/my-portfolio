@@ -10,9 +10,9 @@ function Sidebar() {
     <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  ">
       <div className=" relative w-52 h-52 mx-auto border-8 py-4 border-[#c2c2c2] rounded-full   ">
         <Image
-          src="/profileImg.jpg"
+          src="/profileImg.JPG"
           alt="Büşra Yılmaz"
-          layout="fill"
+          fill
           className="rounded-full"
           objectFit="cover"
         />
