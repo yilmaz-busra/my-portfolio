@@ -6,11 +6,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" border-b  ">
+    <nav className="border-none  ">
       <div className="container mx-auto flex justify-between items-center p-4  ">
         <div className="text-xl font-bold  ">Büşra Yılmaz</div>
         <div className="hidden md:flex space-x-4">
-          <Link href="/" className="p-4 rounded-xl border">
+          <Link href="/" className="p-4 rounded-xl  border-none">
             About Me
           </Link>
           <Link href="/education" className="p-4 rounded-xl border">

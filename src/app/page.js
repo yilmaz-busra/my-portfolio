@@ -1,4 +1,4 @@
-import About from "@/Components/About";
+import About from "@/components/About";
 
 import Image from "next/image";
 

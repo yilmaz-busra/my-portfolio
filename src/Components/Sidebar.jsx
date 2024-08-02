@@ -8,7 +8,7 @@ import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 function Sidebar() {
   return (
     <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  ">
-      <div className=" relative w-52 h-52 mx-auto border-8 py-4 border-[#fbe2e3] rounded-full   ">
+      <div className=" relative w-52 h-52 mx-auto border-8 py-4 border-[#f8dfc1] rounded-full   ">
         <Image
           src="/profileImg.jpg"
           alt="Büşra Yılmaz"
