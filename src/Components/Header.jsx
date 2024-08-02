@@ -6,20 +6,20 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="border-none  ">
+    <nav className=" ">
       <div className="container mx-auto flex justify-between items-center p-4  ">
         <div className="text-xl font-bold  ">Büşra Yılmaz</div>
         <div className="hidden md:flex space-x-4">
           <Link href="/" className="p-4 rounded-xl  border-none">
             About Me
           </Link>
-          <Link href="/education" className="p-4 rounded-xl border">
+          <Link href="/education" className="p-4 rounded-xl border-none">
             Education
           </Link>
-          <Link href="/ability" className="p-4 rounded-xl border">
+          <Link href="/ability" className="p-4 rounded-xl border-none">
             Ability
           </Link>
-          <Link href="/projectss" className="p-4 rounded-xl border">
+          <Link href="/projectss" className="p-4 rounded-xl border-none">
             Projects
           </Link>
         </div>

@@ -7,7 +7,7 @@ function Education() {
         EDUCATION & CERTIFICATES{" "}
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 m-3">
-        <div className="bg-[#fbe2e3] p-4 rounded-xl">
+        <div className="bg-[#c2c2c2] p-4 rounded-xl">
           <div className="flex justify-between items-center">
             <Image
               src="/UniversityLogo.png"
@@ -27,7 +27,7 @@ function Education() {
           <h4 className="text-sm mt-2">09/2020 - 06/2024</h4>
         </div>
 
-        <div className="bg-[#fbe2e3]  p-4 rounded-xl ">
+        <div className="bg-[#c2c2c2] p-4 rounded-xl ">
           <h2 className="mt-8">ISTANBUL UNIVERSITY</h2>
           <div className="flex justify-between items-center mt-2">
             <h3 className="text-sm">Management Information Systems</h3>
@@ -35,19 +35,21 @@ function Education() {
           </div>
         </div>
 
-        <div className="bg-[#FFEED9] p-4 rounded-xl">
-          <h2>React JS : Uygulamalı React JS -Redux Eğitimi (2024)</h2>
+        <div className="bg-[#c2c2c26b] p-4 rounded-xl">
+          <h2>React JS : Uygulamalı React JS -Redux Training (2024)</h2>
         </div>
-
-        <div className="bg-[#FFEED9] p-4 rounded-xl">
+        <div className="bg-[#c2c2c26b] p-4 rounded-xl">
+          <h2>Git & GitHub Training (07/2024) </h2>
+        </div>
+        <div className="bg-[#c2c2c26b] p-4 rounded-xl">
           <h2>Web Design, Sorbil (10/2023) </h2>
         </div>
 
-        <div className="bg-[#FFEED9] p-4 rounded-xl">
+        <div className="bg-[#c2c2c26b] p-4 rounded-xl">
           <h2>React 301, Turkcell Future Writers (08/2023) </h2>
         </div>
 
-        <div className="bg-[#FFEED9] p-4 rounded-xl">
+        <div className="bg-[#c2c2c26b] p-4 rounded-xl">
           <h2>
             Beginner Level Frontend Developer Path - patika.dev (09/2022){" "}
           </h2>

@@ -9,7 +9,7 @@ function About() {
           <h1 className=" w-full mt-2 p-3 text-3xl leading-tight font-medium text-black">
             ABOUT ME
           </h1>
-          <div className="w-full h-1  rounded-lg  bg-[#fbe2e3]   "></div>
+          <div className="w-full h-1  rounded-lg  bg-[#c2c2c2]   "></div>
         </div>
         <p>
           Hi! I&apos;m Büşra Yılmaz. I graduated from the Department of Computer
@@ -26,11 +26,16 @@ function About() {
         </p>
 
         <div className="">
-          <h1 className="w-full mt-2 p-3 text-2xl leading-tight font-medium text-black">
-            WHAT I DO ?
-          </h1>
+          <div className="flex justify-start items-center">
+            {" "}
+            <h1 className="w-full mt-2 p-3 text-2xl leading-tight font-medium text-black">
+              WHAT I DO ?
+            </h1>
+            <div className="w-96 h-1  rounded-lg  bg-[#c2c2c2]   "></div>
+          </div>
+
           <div className="flex flex-col lg:flex-row gap-3">
-            <div className="w-full lg:w-1/2 p-3  rounded-xl bg-[#fbe2e3] ">
+            <div className="w-full lg:w-1/2 p-3  rounded-xl bg-[#c2c2c26b] ">
               <h2 className="mt-2 text-lg leading-tight font-medium text-black">
                 Frontend Developer Intern
               </h2>
@@ -47,7 +52,7 @@ function About() {
               </p>
             </div>
 
-            <div className=" w-full  lg:w-1/2 p-3  rounded-xl bg-[#fbe2e3] ">
+            <div className=" w-full  lg:w-1/2 p-3  rounded-xl bg-[#c2c2c26b] ">
               <h2 className="mt-2 text-lg leading-tight font-medium text-black">
                 Researcher Intern
               </h2>

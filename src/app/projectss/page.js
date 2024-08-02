@@ -34,7 +34,9 @@ function Projectss() {
 
   return (
     <div className="px-3 py-12 mx-auto rounded-xl shadow-xl overflow-hidden md:max-w-2xl bg-white">
-      <h1 className="text-2xl font-bold mb-4">Projects</h1>
+      <h1 className="p-1 text-3xl leading-tight font-medium text-black">
+        PROJECTS
+      </h1>
       <p className="mb-6">Here are some of the projects I have worked on:</p>
       <div className="projects-container flex flex-col lg:flex-row gap-3 ">
         {projects.map((project, index) => (
